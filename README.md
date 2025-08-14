@@ -185,7 +185,7 @@ chmod +x ~/.claude/claude-project
 mkdir -p ~/.local/bin
 echo '#!/bin/bash
 exec ~/.claude/claude-project "$@"' > ~/.local/bin/claude-project
-chmod +x /home/mathis/.local/bin/claude-project
+chmod +x ~/.local/bin/claude-project
 ```
 
 ### Step 4: Create the Smart Launcher
@@ -310,7 +310,7 @@ Make it executable and create wrapper:
 chmod +x ~/.claude/claudex
 echo '#!/bin/bash
 exec ~/.claude/claudex "$@"' > ~/.local/bin/claudex
-chmod +x /home/mathis/.local/bin/claudex
+chmod +x ~/.local/bin/claudex
 ```
 
 ### Step 5: Create the /description Command
